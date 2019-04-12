@@ -1,0 +1,9 @@
+Abstraction is a process of hiding the implementation details and showing only functionality to the user .
+
+[*] An abstract class must be decleared with an abstract keyword.
+[*] It can have abstract and non-abstract methods.
+[*] It cannot be instantiated.
+[*] It can have constructors and static methods.
+[*] It can have final methods.
+
+
