@@ -1,0 +1,18 @@
+Java ArrayList class uses a dynamic array for storing the elemenets . It inherits AbstractList class and implements List interface.
+
+The important points about Java ArrayList class are:
+-----------------------------------------------------------
+
+[*] Java arrayList can contain duplicate elements.
+[*] Java arrayList maintains insertion order.
+[*] Java arrayList class is non sysnchronized.
+[*] Allows random access .
+
+The Various way to traverse the collection elements
+--------------------------------------------------------
+[*] By iteration interface.
+[*] By for-each loop.
+[*] By Listiterator interface.
+[*] By for loop.
+[*] By forEach() loop.
+[*] By forEachReamining() method.
