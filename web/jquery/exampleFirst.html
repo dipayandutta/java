@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First JQuery Example</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" language="javascript">
+      $(document).ready(function(){
+        $("p").css("background-color","red");
+        $("li").css("color","blue");
+        $("#sample").css("color","green");
+        $(".classSample").css("color","yellow");
+      });
+    </script>
+  </head>
+
+  <body>
+    <p> This is the first Paragraph</p>
+    <p> This is the second Paragraph</p>
+    <ul>
+      <li>hello World!</li>
+    </ul>
+    <p id="sample">This is the sample paragraph</p>
+    <p class="classSample">This is the sample class</p>
+  </body>
+</html>

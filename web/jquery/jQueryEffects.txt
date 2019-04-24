@@ -1,0 +1,20 @@
++++++++++++++++++       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Methods                   Descriptions
++++++++++++++++++       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+animate()                 Performs Animation
+clearQueue()              It is ised to remove all remaining queued function from the selected items.
+delay()                   sets delay execution for all the queued functions on the selected elements.
+dequeue()                 It is ued to remove the next function from the queue , and execute the function.
+fadein()                  shows the matched elements by fading it to opaque.
+fadeout()                 shows the matched elements by fading to transparent.
+fadeto()                  Adjusts opacity for the matched elements.
+fadetoggle()              Shows or hides the matched elements.
+finish()                  It stops , removes and complete all queued animation for the selected items.
+hide()                    Hide the matched or selected items.
+queue()                   Shows the manipulates the queue of methods. 
+show()                    displays or shows the selected elements.
+slidedown()               Shows the matched elements with a slide.
+slidetoggle()             Shows or hides the matched elements with slide.
+slideup()                 hides the matched elements with slide.
+stop()                    stops the animation which is running on the matched elements.
+toggle()                  Shows or hides the matched elements .

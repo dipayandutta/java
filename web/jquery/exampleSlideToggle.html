@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title="Slide Toggle"></title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle();
+        });
+      });
+    </script>
+    <style>
+      #panel,#flip{
+        padding: 5px;
+        text-align: center;
+        background-color:#00FFFF;
+        border: solid 1px #cc33cc; 
+      }
+      #panel{
+        padding: 50px;
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="flip">Click to slide the toggle</div>
+    <div id="panel">Hello This is the example of slide toggle , THanks java point</div>
+  </body>
+</html>
