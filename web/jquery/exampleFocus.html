@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>focus Example</title>
+        <style>
+            span{
+                display: none;
+            }
+        </style>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("input").focus(function(){
+                    $(this).next("span").css("display","inline").fadeOut(3000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>
+            <input type="text"><span>Name Please</span>
+        </p>
+        <p>
+            <input type="password"><span>password Please</span>
+        </p>
+    </body>
+</html>
