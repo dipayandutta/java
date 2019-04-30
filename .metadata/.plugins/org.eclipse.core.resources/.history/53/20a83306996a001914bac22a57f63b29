@@ -1,0 +1,22 @@
+package collectionFramework;
+import java.io.*;
+
+
+public class Employee {
+	int id;
+	String name;
+	
+	Employee(int i, String n){
+		
+		this.id = i;
+		this.n  = name;
+	}
+	void displayHeader() {
+		
+		System.out.println("ID"+"\t"+"Name");
+	}
+}
+public class Group {
+
+	
+}

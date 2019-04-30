@@ -1,0 +1,25 @@
+package collectionFramework;
+import java.io.*;
+
+
+class Employee {
+	int id;
+	String name;
+	
+	Employee(int i, String n){
+		
+		this.id = i;
+		this.name  = n;
+	}
+	void displayHeader() {
+		
+		System.out.println("ID"+"\t"+"Name");
+	}
+}
+public class Group {
+
+	public static void main(String args[]) throws IOException{
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	}
+}
