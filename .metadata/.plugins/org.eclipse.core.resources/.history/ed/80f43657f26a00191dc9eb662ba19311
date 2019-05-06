@@ -1,0 +1,7 @@
+package collectionFramework;
+
+import java.io.*;
+import java.util.*;
+public class LinkedListExampleCode {
+
+}

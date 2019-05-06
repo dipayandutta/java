@@ -1,0 +1,58 @@
+package collectionFramework;
+import java.util.HashMap;
+import java.util.Set;
+
+public class AvoidDuplicate {
+	public static void main(String args[]) {
+		HashMap<Price,String> hm = new HashMap<Price,String>();
+		hm.put(new Price("Banna",20),"Banna");
+		hm.put(new Price("Apple",30),"Apple");
+		hm.put(new Price("Orange",40),"Orange");
+		
+		System.out.println(hm);
+		printMap(hm);
+	}
+	
+	public static void printMap(HashMap<Price,String> map) {
+		Set<Price> keys = map.keySet();
+		for(Price pr:keys) {
+			System.out.println(pr+"==>"+map.get(pr));
+		}
+	}
+}
+
+class Price{
+	private String item;
+	private int price;
+	
+	public Price(String itm,int pr) {
+		this.item = itm;
+		this.price= pr;
+	}
+	
+	public int hashCode() {
+		int hashCode =0;
+		hashCode = price*20;
+		hashCode += item.hashCode();
+		return hashCode;
+		
+	}
+	public boolean equals(Object obj) {
+		if(obj instanceof Price) {
+			Price pp = (Price) obj;
+			return (pp.item.equals(this.item) && pp.price == this.price);
+		}else {
+			return false;
+		}
+	}
+	
+	public String getItem() {
+		return item;
+	}
+	public void setItem(String item) {
+		this.item = item;
+	}
+	public int getPrice() {
+		return price;
+	}
+}

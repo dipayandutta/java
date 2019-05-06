@@ -1,0 +1,10 @@
+package collectionFramework;
+import java.util.HashMap;
+
+public class findKey {
+	public static void main(String args[]) {
+		HashMap<Integer,String> hm = new HashMap<Integer,String>();
+		hm.put(1, "java");
+		hm.put(2,"python");
+	}
+}

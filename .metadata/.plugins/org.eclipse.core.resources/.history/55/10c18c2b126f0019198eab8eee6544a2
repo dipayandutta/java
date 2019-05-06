@@ -1,0 +1,20 @@
+package collectionFramework;
+import java.util.HashMap;
+import java.util.Set;
+
+public class AvoidDuplicate {
+	public static void main(String args[]) {
+		HashMap<Price,String> hm = new HashMap<Price,String>();
+		hm.put(new Price("Banna",20),"Banna");
+	}
+}
+
+class Price{
+	private String item;
+	private int price;
+	
+	public Price(String itm,int pr) {
+		this.item = itm;
+		this.pr   = price;
+	}
+}

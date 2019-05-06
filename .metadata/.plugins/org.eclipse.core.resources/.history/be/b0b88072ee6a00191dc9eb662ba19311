@@ -1,0 +1,14 @@
+package collectionFramework;
+
+import java.io.*;
+import java.util.*;
+
+public class StackExample {
+	public static void main(String args[]) throws IOException{
+		Stack<Integer> stack = new Stack<Integer>();
+		
+		int choice =0;
+		int position;
+		int element;
+	}
+}

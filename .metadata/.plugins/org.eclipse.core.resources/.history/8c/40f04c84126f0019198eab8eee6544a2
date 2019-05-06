@@ -1,0 +1,28 @@
+package collectionFramework;
+import java.util.HashMap;
+import java.util.Set;
+
+public class AvoidDuplicate {
+	public static void main(String args[]) {
+		HashMap<Price,String> hm = new HashMap<Price,String>();
+		hm.put(new Price("Banna",20),"Banna");
+		hm.put(new Price("Apple",30),"Apple");
+		hm.put(new Price("Orange",40),"Orange");
+		
+		System.out.println(hm);
+	}
+	
+	public static void printMap(HashMap<Price,String> map) {
+		
+	}
+}
+
+class Price{
+	private String item;
+	private int price;
+	
+	public Price(String itm,int pr) {
+		this.item = itm;
+		this.price= pr;
+	}
+}

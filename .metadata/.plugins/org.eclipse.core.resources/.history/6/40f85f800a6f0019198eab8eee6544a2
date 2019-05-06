@@ -1,0 +1,11 @@
+package collectionFramework;
+
+import java.util.HashMap;
+import java.util.Set;
+
+public class HashMapExample {
+	public static void main(String args[]) {
+		HashMap<String,String> hm = new HashMap<String,String>();
+		hm.put("first", "Java");
+	}
+}

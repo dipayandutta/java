@@ -1,0 +1,10 @@
+package collectionFramework;
+
+import java.io.*;
+import java.util.*;
+
+public class StackExample {
+	public static void main(String args[]) throws IOException{
+		StackExample<Integer> stack = new StackExample<Integer>();
+	}
+}

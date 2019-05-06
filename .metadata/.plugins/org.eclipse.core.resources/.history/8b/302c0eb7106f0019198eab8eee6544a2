@@ -1,0 +1,13 @@
+package collectionFramework;
+import java.util.HashMap;
+import java.util.Set;
+public class EntryObject {
+	public static void main(String args[]) {
+		HashMap<String,String> hm = new HashMap<String,String>();
+		hm.put("First","Java");
+		hm.put("Second","Python");
+		
+		//Getting value for the given key from hashmap
+		Set
+	}
+}

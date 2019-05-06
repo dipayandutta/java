@@ -1,0 +1,22 @@
+package collectionFramework;
+
+import java.io.*;
+import java.util.*;
+
+public class LinkedListExampleCode {
+	public static void main(String args[]) throws Exception{
+		LinkedList<String> linkedlist = new LinkedList<String>();
+		
+		linkedlist.add("Hello");
+		linkedlist.add("Java");
+		linkedlist.add("Python");
+		
+		System.out.println(linkedlist);
+		
+		String element;
+		int position;
+		int choice = 0;
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	}
+}

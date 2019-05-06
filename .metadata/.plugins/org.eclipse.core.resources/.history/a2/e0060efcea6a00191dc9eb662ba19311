@@ -1,0 +1,9 @@
+
+package collectionFramework;
+import java.io.*;
+
+public class HS {
+	public static void main(String args[]) throws IOException {
+		
+	}
+}
