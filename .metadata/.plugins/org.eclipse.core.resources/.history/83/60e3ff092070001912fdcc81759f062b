@@ -1,0 +1,19 @@
+package collectionFramework;
+
+import java.util.HashSet;
+
+public class DeleteUserDefinedObject {
+	public static void main(String args[]) {
+		
+		HashSet<Price> lhs = new HashSet<Price>();
+	}
+}
+class Price{
+	private String item;
+	private int price;
+	
+	public Price(String itm,int pr) {
+		this.price = pr;
+		this.item = itm;
+	}
+}
