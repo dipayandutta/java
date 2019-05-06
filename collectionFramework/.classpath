@@ -7,6 +7,5 @@
 	<classpathentry kind="src" path="StackClassExample"/>
 	<classpathentry kind="src" path="LinkedListExample"/>
 	<classpathentry kind="src" path="HashMapExample"/>
-	<classpathentry kind="src" path="HashSetExamples"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

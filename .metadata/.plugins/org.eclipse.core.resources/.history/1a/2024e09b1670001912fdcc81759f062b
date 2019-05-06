@@ -1,0 +1,8 @@
+package collectionFramework;
+import java.util.HashSet;
+
+public class HashSetCopy {
+	public static void main(String args[]) {
+		HashSet<String> hs = new HashSet<String>();
+	}
+}
